@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Terence</title>
+  <title>Ternence</title>
   
-  <subtitle>Terenceの博客</subtitle>
+  <subtitle>Ternenceの博客</subtitle>
   <link href="https://lhkterence.github.io/atom.xml" rel="self"/>
   
   <link href="https://lhkterence.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://lhkterence.github.io/</id>
   
   <author>
-    <name>Terence</name>
+    <name>Ternence</name>
     
   </author>
   
@@ -38,9 +38,9 @@
     
     <category term="Hexo" scheme="https://lhkterence.github.io/tags/Hexo/"/>
     
-    <category term="博客" scheme="https://lhkterence.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="测量平差" scheme="https://lhkterence.github.io/tags/%E6%B5%8B%E9%87%8F%E5%B9%B3%E5%B7%AE/"/>
+    
+    <category term="博客" scheme="https://lhkterence.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -66,9 +66,9 @@
     
     <category term="Hexo" scheme="https://lhkterence.github.io/tags/Hexo/"/>
     
-    <category term="Github" scheme="https://lhkterence.github.io/tags/Github/"/>
-    
     <category term="博客" scheme="https://lhkterence.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="Github" scheme="https://lhkterence.github.io/tags/Github/"/>
     
   </entry>
   
