@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="罗宏昆大数据可视化作业, 测绘 计算机">
+    <meta name="keywords" content="罗宏昆JAVA作业, 测绘 计算机">
     <meta name="description" content="本科 | 测绘工程 ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>罗宏昆大数据可视化作业 | Ternence</title>
+    <title>罗宏昆JAVA作业 | Ternence</title>
 
     <link rel="icon" type="image/jpeg" href="https://s3.bmp.ovh/imgs/2022/04/30/a5e6ec1fd94e0dbd.jpg">
 
@@ -511,7 +511,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '';
+        let pwd = '12345678';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -524,12 +524,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://s2.loli.net/2022/11/15/YpmUl4tFu8rxGf7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://s2.loli.net/2022/11/15/LHQ7386kMKblA1V.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">罗宏昆大数据可视化作业</h1>
+                    <h1 class="description center-align post-title">罗宏昆JAVA作业</h1>
                 </div>
             </div>
         </div>
@@ -654,12 +654,12 @@
                                 <span class="chip bg-color">Hexo</span>
                             </a>
                         
-                            <a href="/tags/python-%E5%89%8D%E7%AB%AF/">
-                                <span class="chip bg-color">python,前端</span>
-                            </a>
-                        
                             <a href="/tags/%E5%8D%9A%E5%AE%A2/">
                                 <span class="chip bg-color">博客</span>
+                            </a>
+                        
+                            <a href="/tags/JAVA-%E7%AE%80%E5%8D%95%E7%AE%97%E6%B3%95/">
+                                <span class="chip bg-color">JAVA,简单算法</span>
                             </a>
                         
                     </div>
@@ -683,7 +683,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-11-15
+                    2022-11-16
                 </div>
                 
 
@@ -697,7 +697,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.1k
+                    1.2k
                 </div>
                 
 
@@ -722,227 +722,206 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="罗宏昆大数据科学可视化的作业"><a href="#罗宏昆大数据科学可视化的作业" class="headerlink" title="罗宏昆大数据科学可视化的作业"></a>罗宏昆大数据科学可视化的作业</h1><h3 id="前端Web可视化"><a href="#前端Web可视化" class="headerlink" title="前端Web可视化"></a>前端Web可视化</h3><h4 id="代码部分"><a href="#代码部分" class="headerlink" title="代码部分"></a>代码部分</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">from</span> pyecharts <span class="token keyword">import</span> options <span class="token keyword">as</span> opts
-<span class="token keyword">from</span> pyecharts<span class="token punctuation">.</span>charts <span class="token keyword">import</span> Pie
-<span class="token keyword">from</span> pyecharts<span class="token punctuation">.</span>faker <span class="token keyword">import</span> Faker
+                <h1 id="罗宏昆JAVA作业"><a href="#罗宏昆JAVA作业" class="headerlink" title="罗宏昆JAVA作业"></a>罗宏昆JAVA作业</h1><h3 id="所有程序均是自己一个一个敲进去，类名work3-2代表第三章第二题的求解结果，求解环境为IDEA。"><a href="#所有程序均是自己一个一个敲进去，类名work3-2代表第三章第二题的求解结果，求解环境为IDEA。" class="headerlink" title="所有程序均是自己一个一个敲进去，类名work3_2代表第三章第二题的求解结果，求解环境为IDEA。"></a>所有程序均是自己一个一个敲进去，类名work3_2代表第三章第二题的求解结果，求解环境为IDEA。</h3><p><img src="https://s2.loli.net/2022/11/15/bdUCxMtyePfsg43.png" alt="IDEA.png"></p>
+<h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><h3 id="1、-用移位运算实现求2的x次方。"><a href="#1、-用移位运算实现求2的x次方。" class="headerlink" title="1、 用移位运算实现求2的x次方。"></a>1、 用移位运算实现求2的x次方。</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">//导入扫描库</span>
+<span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span><span class="token punctuation">;</span>
 
-c <span class="token operator">=</span> <span class="token punctuation">(</span>
-    Pie<span class="token punctuation">(</span><span class="token punctuation">)</span>
-    <span class="token punctuation">.</span>add<span class="token punctuation">(</span>
-        <span class="token string">""</span><span class="token punctuation">,</span>
-        <span class="token punctuation">[</span><span class="token builtin">list</span><span class="token punctuation">(</span>z<span class="token punctuation">)</span> <span class="token keyword">for</span> z <span class="token keyword">in</span> <span class="token builtin">zip</span><span class="token punctuation">(</span>Faker<span class="token punctuation">.</span>choose<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span> Faker<span class="token punctuation">.</span>values<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-        radius<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">"40%"</span><span class="token punctuation">,</span> <span class="token string">"55%"</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-        label_opts<span class="token operator">=</span>opts<span class="token punctuation">.</span>LabelOpts<span class="token punctuation">(</span>
-            position<span class="token operator">=</span><span class="token string">"outside"</span><span class="token punctuation">,</span>
-            formatter<span class="token operator">=</span><span class="token string">"{a|{a}}{abg|}\n{hr|}\n {b|{b}: }{c}  {per|{d}%}  "</span><span class="token punctuation">,</span>
-            background_color<span class="token operator">=</span><span class="token string">"#eee"</span><span class="token punctuation">,</span>
-            border_color<span class="token operator">=</span><span class="token string">"#aaa"</span><span class="token punctuation">,</span>
-            border_width<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>
-            border_radius<span class="token operator">=</span><span class="token number">4</span><span class="token punctuation">,</span>
-            rich<span class="token operator">=</span><span class="token punctuation">{</span>
-                <span class="token string">"a"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token string">"color"</span><span class="token punctuation">:</span> <span class="token string">"#999"</span><span class="token punctuation">,</span> <span class="token string">"lineHeight"</span><span class="token punctuation">:</span> <span class="token number">22</span><span class="token punctuation">,</span> <span class="token string">"align"</span><span class="token punctuation">:</span> <span class="token string">"center"</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
-                <span class="token string">"abg"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token string">"backgroundColor"</span><span class="token punctuation">:</span> <span class="token string">"#e3e3e3"</span><span class="token punctuation">,</span>
-                    <span class="token string">"width"</span><span class="token punctuation">:</span> <span class="token string">"100%"</span><span class="token punctuation">,</span>
-                    <span class="token string">"align"</span><span class="token punctuation">:</span> <span class="token string">"right"</span><span class="token punctuation">,</span>
-                    <span class="token string">"height"</span><span class="token punctuation">:</span> <span class="token number">22</span><span class="token punctuation">,</span>
-                    <span class="token string">"borderRadius"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-                <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                <span class="token string">"hr"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token string">"borderColor"</span><span class="token punctuation">:</span> <span class="token string">"#aaa"</span><span class="token punctuation">,</span>
-                    <span class="token string">"width"</span><span class="token punctuation">:</span> <span class="token string">"100%"</span><span class="token punctuation">,</span>
-                    <span class="token string">"borderWidth"</span><span class="token punctuation">:</span> <span class="token number">0.5</span><span class="token punctuation">,</span>
-                    <span class="token string">"height"</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
-                <span class="token punctuation">}</span><span class="token punctuation">,</span>
-                <span class="token string">"b"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token string">"fontSize"</span><span class="token punctuation">:</span> <span class="token number">16</span><span class="token punctuation">,</span> <span class="token string">"lineHeight"</span><span class="token punctuation">:</span> <span class="token number">33</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
-                <span class="token string">"per"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
-                    <span class="token string">"color"</span><span class="token punctuation">:</span> <span class="token string">"#eee"</span><span class="token punctuation">,</span>
-                    <span class="token string">"backgroundColor"</span><span class="token punctuation">:</span> <span class="token string">"#334455"</span><span class="token punctuation">,</span>
-                    <span class="token string">"padding"</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-                    <span class="token string">"borderRadius"</span><span class="token punctuation">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
-                <span class="token punctuation">}</span><span class="token punctuation">,</span>
-            <span class="token punctuation">}</span><span class="token punctuation">,</span>
-        <span class="token punctuation">)</span><span class="token punctuation">,</span>
-    <span class="token punctuation">)</span>
-    <span class="token punctuation">.</span>set_global_opts<span class="token punctuation">(</span>title_opts<span class="token operator">=</span>opts<span class="token punctuation">.</span>TitleOpts<span class="token punctuation">(</span>title<span class="token operator">=</span><span class="token string">"Pie-富文本示例"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-    <span class="token punctuation">.</span>render<span class="token punctuation">(</span><span class="token string">"pie_rich_label.html"</span><span class="token punctuation">)</span>
-<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="https://s2.loli.net/2022/11/15/IWBmjfu8Y7nhXRo.jpg" alt="饼图示例.jpg"></p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">from</span> pyecharts <span class="token keyword">import</span> options <span class="token keyword">as</span> opts
-<span class="token keyword">from</span> pyecharts<span class="token punctuation">.</span>charts <span class="token keyword">import</span> Geo
-<span class="token keyword">from</span> pyecharts<span class="token punctuation">.</span><span class="token builtin">globals</span> <span class="token keyword">import</span> ChartType<span class="token punctuation">,</span> SymbolType
+<span class="token keyword">public</span> <span class="token keyword">class</span> work2_1 <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">Scanner</span> input <span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+           <span class="token comment">//判断是否有输入数据，如果有输入数据就进行扫描</span>
+        <span class="token keyword">while</span><span class="token punctuation">(</span>input<span class="token punctuation">.</span><span class="token function">hasNext</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token comment">//读取输入的数据，并且赋值给n</span>
+            <span class="token keyword">int</span> n <span class="token operator">=</span> input<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token comment">//为什么是n-1呢，因为比方输入1，移位之前原本是10，</span>
+            <span class="token comment">// 现在变成100，就是2的2次方，并不是按照1次放算的</span>
+            <span class="token keyword">int</span> num <span class="token operator">=</span> <span class="token number">2</span> <span class="token operator">&lt;&lt;</span> n<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="输出结果"><a href="#输出结果" class="headerlink" title="输出结果"></a>输出结果</h3><p><img src="https://s2.loli.net/2022/11/15/KAd7WBvcm4OZ6L2.png" alt="result.png"></p>
+<h3 id="2、-用按位与运算，取模运算、判断一个数是否为奇数。"><a href="#2、-用按位与运算，取模运算、判断一个数是否为奇数。" class="headerlink" title="2、 用按位与运算，取模运算、判断一个数是否为奇数。"></a>2、 用按位与运算，取模运算、判断一个数是否为奇数。</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span><span class="token punctuation">;</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> work2_2 <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//实例化输入对象</span>
+        <span class="token class-name">Scanner</span> input <span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//实例化调用函数的对象</span>
+        work2_2 a<span class="token operator">=</span><span class="token keyword">new</span> <span class="token function">work2_2</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//isOddNumber为判断是不是奇数的函数</span>
+        <span class="token keyword">int</span> int1<span class="token operator">=</span>input<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">boolean</span> b<span class="token operator">=</span>a<span class="token punctuation">.</span><span class="token function">isOddNumber</span><span class="token punctuation">(</span>int1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>b<span class="token operator">==</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>int1<span class="token operator">+</span><span class="token string">"是奇数"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">else</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>int1<span class="token operator">+</span><span class="token string">"是偶数"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token class-name">Boolean</span> <span class="token function">isOddNumber</span><span class="token punctuation">(</span><span class="token keyword">int</span> integer<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>integer<span class="token operator">&amp;</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token operator">==</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token comment">//如果和1按照与运算是真，那么就是奇数</span>
+        <span class="token punctuation">{</span>
+          <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="输出结果-1"><a href="#输出结果-1" class="headerlink" title="输出结果"></a>输出结果</h3><p><img src="https://s2.loli.net/2022/11/15/oBvn916HJ3pLwNz.png" alt="result.png"></p>
+<p><img src="https://s2.loli.net/2022/11/15/KHijtVl834nydDF.png" alt="1668354927469.png"></p>
+<h3 id="3、-判断一个数是否是2的n-次幂"><a href="#3、-判断一个数是否是2的n-次幂" class="headerlink" title="3、 判断一个数是否是2的n 次幂"></a>3、 判断一个数是否是2的n 次幂</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span><span class="token punctuation">;</span>
 
-c <span class="token operator">=</span> <span class="token punctuation">(</span>
-    Geo<span class="token punctuation">(</span><span class="token punctuation">)</span>
-    <span class="token punctuation">.</span>add_schema<span class="token punctuation">(</span>
-        maptype<span class="token operator">=</span><span class="token string">"china"</span><span class="token punctuation">,</span>
-        itemstyle_opts<span class="token operator">=</span>opts<span class="token punctuation">.</span>ItemStyleOpts<span class="token punctuation">(</span>color<span class="token operator">=</span><span class="token string">"#ddb6b6"</span><span class="token punctuation">,</span> border_color<span class="token operator">=</span><span class="token string">"#111"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-    <span class="token punctuation">)</span>
-    <span class="token punctuation">.</span>add<span class="token punctuation">(</span>
-        <span class="token string">""</span><span class="token punctuation">,</span>
-        <span class="token punctuation">[</span><span class="token punctuation">(</span><span class="token string">"广州"</span><span class="token punctuation">,</span> <span class="token number">55</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token string">"北京"</span><span class="token punctuation">,</span> <span class="token number">66</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token string">"杭州"</span><span class="token punctuation">,</span> <span class="token number">77</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token string">"重庆"</span><span class="token punctuation">,</span> <span class="token number">88</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-        type_<span class="token operator">=</span>ChartType<span class="token punctuation">.</span>EFFECT_SCATTER<span class="token punctuation">,</span>
-        color<span class="token operator">=</span><span class="token string">"white"</span><span class="token punctuation">,</span>
-    <span class="token punctuation">)</span>
-    <span class="token punctuation">.</span>add<span class="token punctuation">(</span>
-        <span class="token string">"geo"</span><span class="token punctuation">,</span>
-        <span class="token punctuation">[</span><span class="token punctuation">(</span><span class="token string">"广州"</span><span class="token punctuation">,</span> <span class="token string">"上海"</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token string">"广州"</span><span class="token punctuation">,</span> <span class="token string">"北京"</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token string">"广州"</span><span class="token punctuation">,</span> <span class="token string">"杭州"</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token string">"广州"</span><span class="token punctuation">,</span> <span class="token string">"重庆"</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
-        type_<span class="token operator">=</span>ChartType<span class="token punctuation">.</span>LINES<span class="token punctuation">,</span>
-        effect_opts<span class="token operator">=</span>opts<span class="token punctuation">.</span>EffectOpts<span class="token punctuation">(</span>
-            symbol<span class="token operator">=</span>SymbolType<span class="token punctuation">.</span>ARROW<span class="token punctuation">,</span> symbol_size<span class="token operator">=</span><span class="token number">6</span><span class="token punctuation">,</span> color<span class="token operator">=</span><span class="token string">"blue"</span>
-        <span class="token punctuation">)</span><span class="token punctuation">,</span>
-        linestyle_opts<span class="token operator">=</span>opts<span class="token punctuation">.</span>LineStyleOpts<span class="token punctuation">(</span>curve<span class="token operator">=</span><span class="token number">0.2</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-    <span class="token punctuation">)</span>
-    <span class="token punctuation">.</span>set_series_opts<span class="token punctuation">(</span>label_opts<span class="token operator">=</span>opts<span class="token punctuation">.</span>LabelOpts<span class="token punctuation">(</span>is_show<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-    <span class="token punctuation">.</span>set_global_opts<span class="token punctuation">(</span>title_opts<span class="token operator">=</span>opts<span class="token punctuation">.</span>TitleOpts<span class="token punctuation">(</span>title<span class="token operator">=</span><span class="token string">"Geo-Lines-background"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-    <span class="token punctuation">.</span>render<span class="token punctuation">(</span><span class="token string">"geo_lines_background.html"</span><span class="token punctuation">)</span>
-<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="https://s2.loli.net/2022/11/15/NDJusU8StLeg9bR.jpg" alt="pyecharts地图示例.jpg"></p>
-<h4 id="最后的可视化效果"><a href="#最后的可视化效果" class="headerlink" title="最后的可视化效果"></a>最后的可视化效果</h4><p><img src="https://s2.loli.net/2022/11/15/FGsnOg4cexQI7SL.gif" alt="Web可视化效果.gif"></p>
-<h3 id="科学可视化"><a href="#科学可视化" class="headerlink" title="科学可视化"></a>科学可视化</h3><h4 id="对于飞机的三维点云进行可视化展示"><a href="#对于飞机的三维点云进行可视化展示" class="headerlink" title="对于飞机的三维点云进行可视化展示"></a>对于飞机的三维点云进行可视化展示</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">from</span> mpl_toolkits<span class="token punctuation">.</span>mplot3d <span class="token keyword">import</span> Axes3D  
-<span class="token keyword">import</span> matplotlib<span class="token punctuation">.</span>pyplot <span class="token keyword">as</span> plt
-<span class="token keyword">import</span> numpy <span class="token keyword">as</span> np
-<span class="token keyword">import</span> pandas <span class="token keyword">as</span> pd
-df<span class="token operator">=</span>df<span class="token operator">=</span>pd<span class="token punctuation">.</span>read_excel<span class="token punctuation">(</span><span class="token string">'D:\OneDrive - cumt.edu.cn\桌面\数据集\飞机点云数据集.xlsx'</span><span class="token punctuation">)</span>
-arr<span class="token operator">=</span>df<span class="token punctuation">.</span>values
-fig <span class="token operator">=</span> plt<span class="token punctuation">.</span>figure<span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> work2_3 <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment">//实例化输入对象</span>
+        <span class="token class-name">Scanner</span> input <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        work2_3 a<span class="token operator">=</span><span class="token keyword">new</span> <span class="token function">work2_3</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//四个测试数据</span>
+        <span class="token keyword">int</span> int1<span class="token operator">=</span>input<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> int2<span class="token operator">=</span>input<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> int3<span class="token operator">=</span>input<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> int4<span class="token operator">=</span>input<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//分别输出</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a<span class="token punctuation">.</span><span class="token function">isTwoPower</span><span class="token punctuation">(</span>int1<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a<span class="token punctuation">.</span><span class="token function">isTwoPower</span><span class="token punctuation">(</span>int2<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a<span class="token punctuation">.</span><span class="token function">isTwoPower</span><span class="token punctuation">(</span>int3<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>a<span class="token punctuation">.</span><span class="token function">isTwoPower</span><span class="token punctuation">(</span>int4<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-bxs <span class="token operator">=</span> arr<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">]</span>
-bys <span class="token operator">=</span> arr<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">]</span>
-bzs <span class="token operator">=</span> arr<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">]</span>
-bx <span class="token operator">=</span> fig<span class="token punctuation">.</span>add_subplot<span class="token punctuation">(</span><span class="token number">111</span><span class="token punctuation">,</span> projection<span class="token operator">=</span><span class="token string">'3d'</span><span class="token punctuation">)</span>
-bx<span class="token punctuation">.</span>scatter<span class="token punctuation">(</span>bxs<span class="token punctuation">,</span> bys<span class="token punctuation">,</span> bzs<span class="token punctuation">,</span> c<span class="token operator">=</span>c<span class="token punctuation">,</span> marker<span class="token operator">=</span>m<span class="token punctuation">)</span>
-bx<span class="token punctuation">.</span>set_xlabel<span class="token punctuation">(</span><span class="token string">'X Label'</span><span class="token punctuation">)</span>
-bx<span class="token punctuation">.</span>set_ylabel<span class="token punctuation">(</span><span class="token string">'Y Label'</span><span class="token punctuation">)</span>
-bx<span class="token punctuation">.</span>set_zlabel<span class="token punctuation">(</span><span class="token string">'Z Label'</span><span class="token punctuation">)</span>
-<span class="token comment"># 点在 3 个坐标平面上的投影</span>
-bx<span class="token punctuation">.</span>scatter<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> bys<span class="token punctuation">,</span> bzs<span class="token punctuation">,</span> zdir<span class="token operator">=</span><span class="token string">'z'</span><span class="token punctuation">,</span> c<span class="token operator">=</span><span class="token string">'green'</span><span class="token punctuation">,</span> s<span class="token operator">=</span>bzs<span class="token operator">*</span><span class="token number">28</span> <span class="token punctuation">)</span>    <span class="token comment"># 投影在 yz 平面</span>
-bx<span class="token punctuation">.</span>scatter<span class="token punctuation">(</span>bxs<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> bzs<span class="token punctuation">,</span> zdir<span class="token operator">=</span><span class="token string">'z'</span><span class="token punctuation">,</span> c<span class="token operator">=</span><span class="token string">'gray'</span><span class="token punctuation">,</span> s<span class="token operator">=</span>bzs<span class="token operator">*</span><span class="token number">28</span> <span class="token punctuation">)</span>    <span class="token comment"># 投影在 xz 平面</span>
-bx<span class="token punctuation">.</span>scatter<span class="token punctuation">(</span>bxs<span class="token punctuation">,</span> bys<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> zdir<span class="token operator">=</span><span class="token string">'z'</span><span class="token punctuation">,</span> c<span class="token operator">=</span><span class="token string">'cyan'</span><span class="token punctuation">,</span> s<span class="token operator">=</span>bzs<span class="token operator">*</span><span class="token number">28</span> <span class="token punctuation">)</span>    <span class="token comment"># 投影在 xy 平面</span>
-<span class="token comment"># 调整视角</span>
-bx<span class="token punctuation">.</span>view_init<span class="token punctuation">(</span>elev<span class="token operator">=</span><span class="token number">120</span><span class="token punctuation">,</span>    <span class="token comment"># 仰角</span>
-             azim<span class="token operator">=</span><span class="token number">45</span>    <span class="token comment"># 方位角</span>
-            <span class="token punctuation">)</span>
-plt<span class="token punctuation">.</span>show<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="https://s2.loli.net/2022/11/15/2eSZ8pWUujokxh3.png" alt="飞机三维点云可视化.png"></p>
-<p><img src="https://s2.loli.net/2022/11/15/cIP4pybiJk7AfOr.png" alt="飞机三维点云可视化.png"></p>
-<h4 id="基于pyechart的三维地图可视化"><a href="#基于pyechart的三维地图可视化" class="headerlink" title="基于pyechart的三维地图可视化"></a>基于pyechart的三维地图可视化</h4><h5 id="各个省份奶制品的消费量"><a href="#各个省份奶制品的消费量" class="headerlink" title="各个省份奶制品的消费量"></a>各个省份奶制品的消费量</h5><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">from</span> pyecharts <span class="token keyword">import</span> options <span class="token keyword">as</span> opts
-<span class="token keyword">from</span> pyecharts<span class="token punctuation">.</span>charts <span class="token keyword">import</span> Map3D
-<span class="token keyword">from</span> pyecharts<span class="token punctuation">.</span><span class="token builtin">globals</span> <span class="token keyword">import</span> ChartType
-<span class="token keyword">from</span> pyecharts<span class="token punctuation">.</span>commons<span class="token punctuation">.</span>utils <span class="token keyword">import</span> JsCode
+    <span class="token punctuation">}</span>
+    <span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">isTwoPower</span><span class="token punctuation">(</span><span class="token keyword">int</span> n<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> n <span class="token operator">&gt;</span> <span class="token number">0</span> <span class="token operator">&amp;&amp;</span> <span class="token punctuation">(</span>n <span class="token operator">&amp;</span> <span class="token punctuation">(</span>n <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="输出结果-2"><a href="#输出结果-2" class="headerlink" title="输出结果"></a>输出结果</h3><p><img src="https://s2.loli.net/2022/11/15/6D1TLxW5hjRQ8Ns.png" alt="result.png"></p>
+<h2 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h2><h3 id="1、-计算多项式1！-2！-3！…-n-，当多项式之和超过10000时停止，并输出累加之和以及n的值。"><a href="#1、-计算多项式1！-2！-3！…-n-，当多项式之和超过10000时停止，并输出累加之和以及n的值。" class="headerlink" title="1、 计算多项式1！+2！+3！…+n!，当多项式之和超过10000时停止，并输出累加之和以及n的值。"></a>1、 计算多项式1！+2！+3！…+n!，当多项式之和超过10000时停止，并输出累加之和以及n的值。</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span><span class="token punctuation">;</span>
 
-example_data <span class="token operator">=</span> <span class="token punctuation">[</span>
-     <span class="token punctuation">(</span><span class="token string">"黑龙江"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">127.9688</span><span class="token punctuation">,</span>	<span class="token number">45.368</span><span class="token punctuation">,</span>	<span class="token number">10.6</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"内蒙古"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">110.3467</span><span class="token punctuation">,</span>	<span class="token number">41.4899</span><span class="token punctuation">,</span>	<span class="token number">24.8</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"吉林"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">125.8154</span><span class="token punctuation">,</span>	<span class="token number">44.2584</span><span class="token punctuation">,</span>	<span class="token number">11.6</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"辽宁"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">123.1238</span><span class="token punctuation">,</span>	<span class="token number">42.1216</span><span class="token punctuation">,</span>	<span class="token number">17.7</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"河北"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">114.4995</span><span class="token punctuation">,</span>	<span class="token number">38.1006</span><span class="token punctuation">,</span>	<span class="token number">16.5</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"天津"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">117.4219</span><span class="token punctuation">,</span>	<span class="token number">39.4189</span><span class="token punctuation">,</span>	<span class="token number">16.8</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"山西"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">112.3352</span><span class="token punctuation">,</span>	<span class="token number">37.9413</span><span class="token punctuation">,</span>	<span class="token number">17.9</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"陕西"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">109.1162</span><span class="token punctuation">,</span>	<span class="token number">34.2004</span><span class="token punctuation">,</span>	<span class="token number">14.7</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"甘肃"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">103.5901</span><span class="token punctuation">,</span>	<span class="token number">36.3043</span><span class="token punctuation">,</span>	<span class="token number">15.7</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"宁夏"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">106.3586</span><span class="token punctuation">,</span>	<span class="token number">38.1775</span><span class="token punctuation">,</span>	<span class="token number">13.5</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"青海"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">101.4038</span><span class="token punctuation">,</span>	<span class="token number">36.8207</span><span class="token punctuation">,</span>	<span class="token number">16.7</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"新疆"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">87.9236</span><span class="token punctuation">,</span>	<span class="token number">43.5883</span><span class="token punctuation">,</span>	<span class="token number">18.7</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"西藏"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">91.11</span><span class="token punctuation">,</span>	<span class="token number">29.97</span><span class="token punctuation">,</span>	<span class="token number">8.5</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"四川"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">103.9526</span><span class="token punctuation">,</span>	<span class="token number">30.7617</span><span class="token punctuation">,</span>	<span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"重庆"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">108.384366</span><span class="token punctuation">,</span>	<span class="token number">30.439702</span><span class="token punctuation">,</span>	<span class="token number">14</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"山东"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">117.1582</span><span class="token punctuation">,</span>	<span class="token number">36.8701</span><span class="token punctuation">,</span>	<span class="token number">17.6</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"河南"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">113.4668</span><span class="token punctuation">,</span>	<span class="token number">34.6234</span><span class="token punctuation">,</span>	<span class="token number">13.5</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"江苏"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">118.8062</span><span class="token punctuation">,</span>	<span class="token number">31.9208</span><span class="token punctuation">,</span>	<span class="token number">15.4</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"安徽"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">117.29</span><span class="token punctuation">,</span>	<span class="token number">32.0581</span><span class="token punctuation">,</span>	<span class="token number">11.3</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"湖北"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">114.3896</span><span class="token punctuation">,</span>	<span class="token number">30.6628</span><span class="token punctuation">,</span>	<span class="token number">7.7</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"浙江"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">119.5313</span><span class="token punctuation">,</span>	<span class="token number">29.8773</span><span class="token punctuation">,</span>	<span class="token number">14.7</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"福建"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">119.4543</span><span class="token punctuation">,</span>	<span class="token number">25.9222</span><span class="token punctuation">,</span>	<span class="token number">11.7</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"江西"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">116.0046</span><span class="token punctuation">,</span>	<span class="token number">28.6633</span><span class="token punctuation">,</span>	<span class="token number">11.2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"湖南"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">113.0823</span><span class="token punctuation">,</span>	<span class="token number">28.2568</span><span class="token punctuation">,</span>	<span class="token number">7.4</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"贵州"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">106.6992</span><span class="token punctuation">,</span>	<span class="token number">26.7682</span><span class="token punctuation">,</span>	<span class="token number">5.1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"广西"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">108.479</span><span class="token punctuation">,</span>	<span class="token number">23.1152</span><span class="token punctuation">,</span>	<span class="token number">5.6</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"海南"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">110.3893</span><span class="token punctuation">,</span>	<span class="token number">19.8516</span><span class="token punctuation">,</span>	<span class="token number">4.9</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">(</span><span class="token string">"上海"</span><span class="token punctuation">,</span>	<span class="token punctuation">[</span><span class="token number">121.4648</span><span class="token punctuation">,</span>	<span class="token number">31.2891</span><span class="token punctuation">,</span>	<span class="token number">23.1</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-<span class="token punctuation">]</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> work3_1 <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token class-name">Scanner</span> input <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        work3_1 a <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token function">work3_1</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//定义全局变量</span>
+        <span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> i<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token comment">//进行循环计算</span>
+       <span class="token keyword">while</span> <span class="token punctuation">(</span>sum<span class="token operator">&lt;=</span><span class="token number">10000</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+           sum <span class="token operator">=</span> sum <span class="token operator">+</span> a<span class="token punctuation">.</span><span class="token function">factorial</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+           i <span class="token operator">=</span> i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span>
+       <span class="token comment">//输出计算结果</span>
+       <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>sum<span class="token punctuation">)</span><span class="token punctuation">;</span>
+       <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">//计算阶乘的函数</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">factorial</span><span class="token punctuation">(</span><span class="token keyword">int</span> i<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>i <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span>
+            <span class="token keyword">return</span> i<span class="token punctuation">;</span>
+        <span class="token keyword">else</span>
+            <span class="token keyword">return</span> i <span class="token operator">*</span> <span class="token function">factorial</span><span class="token punctuation">(</span>i <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="输出结果-3"><a href="#输出结果-3" class="headerlink" title="输出结果"></a>输出结果</h3><p><img src="https://s2.loli.net/2022/11/15/nQVF7yw2ZuvJbiY.png" alt="result.png"></p>
+<h3 id="2、-从标准输入端输入一个字符，判断字符是数字、还是西文字母还是其他的字符。"><a href="#2、-从标准输入端输入一个字符，判断字符是数字、还是西文字母还是其他的字符。" class="headerlink" title="2、 从标准输入端输入一个字符，判断字符是数字、还是西文字母还是其他的字符。"></a>2、 从标准输入端输入一个字符，判断字符是数字、还是西文字母还是其他的字符。</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span><span class="token punctuation">;</span>
 
-c <span class="token operator">=</span> <span class="token punctuation">(</span>
-    Map3D<span class="token punctuation">(</span><span class="token punctuation">)</span>
-    <span class="token punctuation">.</span>add_schema<span class="token punctuation">(</span>
-        itemstyle_opts<span class="token operator">=</span>opts<span class="token punctuation">.</span>ItemStyleOpts<span class="token punctuation">(</span>
-            color<span class="token operator">=</span><span class="token string">"rgb(5,101,123)"</span><span class="token punctuation">,</span>
-            opacity<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>
-            border_width<span class="token operator">=</span><span class="token number">0.8</span><span class="token punctuation">,</span>
-            border_color<span class="token operator">=</span><span class="token string">"rgb(62,215,213)"</span><span class="token punctuation">,</span>
-        <span class="token punctuation">)</span><span class="token punctuation">,</span>
-        map3d_label<span class="token operator">=</span>opts<span class="token punctuation">.</span>Map3DLabelOpts<span class="token punctuation">(</span>
-            is_show<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span>
-            formatter<span class="token operator">=</span>JsCode<span class="token punctuation">(</span><span class="token string">"function(data){return data.name + "</span> <span class="token string">" + data.value[2];}"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-        <span class="token punctuation">)</span><span class="token punctuation">,</span>
-        emphasis_label_opts<span class="token operator">=</span>opts<span class="token punctuation">.</span>LabelOpts<span class="token punctuation">(</span>
-            is_show<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span>
-            color<span class="token operator">=</span><span class="token string">"#fff"</span><span class="token punctuation">,</span>
-            font_size<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">,</span>
-            background_color<span class="token operator">=</span><span class="token string">"rgba(0,23,11,0)"</span><span class="token punctuation">,</span>
-        <span class="token punctuation">)</span><span class="token punctuation">,</span>
-        light_opts<span class="token operator">=</span>opts<span class="token punctuation">.</span>Map3DLightOpts<span class="token punctuation">(</span>
-            main_color<span class="token operator">=</span><span class="token string">"#fff"</span><span class="token punctuation">,</span>
-            main_intensity<span class="token operator">=</span><span class="token number">1.2</span><span class="token punctuation">,</span>
-            main_shadow_quality<span class="token operator">=</span><span class="token string">"high"</span><span class="token punctuation">,</span>
-            is_main_shadow<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span>
-            main_beta<span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">,</span>
-            ambient_intensity<span class="token operator">=</span><span class="token number">0.3</span><span class="token punctuation">,</span>
-        <span class="token punctuation">)</span><span class="token punctuation">,</span>
-    <span class="token punctuation">)</span>
-    <span class="token punctuation">.</span>add<span class="token punctuation">(</span>
-        series_name<span class="token operator">=</span><span class="token string">"bar3D"</span><span class="token punctuation">,</span>
-        data_pair<span class="token operator">=</span>example_data<span class="token punctuation">,</span>
-        type_<span class="token operator">=</span>ChartType<span class="token punctuation">.</span>BAR3D<span class="token punctuation">,</span>
-        bar_size<span class="token operator">=</span><span class="token number">1</span><span class="token punctuation">,</span>
-        shading<span class="token operator">=</span><span class="token string">"lambert"</span><span class="token punctuation">,</span>
-        label_opts<span class="token operator">=</span>opts<span class="token punctuation">.</span>LabelOpts<span class="token punctuation">(</span>
-            is_show<span class="token operator">=</span><span class="token boolean">False</span><span class="token punctuation">,</span>
-            formatter<span class="token operator">=</span>JsCode<span class="token punctuation">(</span><span class="token string">"function(data){return data.name + ' ' + data.value[2];}"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-        <span class="token punctuation">)</span><span class="token punctuation">,</span>
-    <span class="token punctuation">)</span>
-    <span class="token punctuation">.</span>set_global_opts<span class="token punctuation">(</span>title_opts<span class="token operator">=</span>opts<span class="token punctuation">.</span>TitleOpts<span class="token punctuation">(</span>title<span class="token operator">=</span><span class="token string">"Map3D-Bar3D"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-    <span class="token punctuation">.</span>render<span class="token punctuation">(</span><span class="token string">"map3d_with_bar3d.html"</span><span class="token punctuation">)</span>
-<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>运行代码会生成map3d_with_bar3d.html文件，用浏览器打开即可</p>
-<p><img src="https://s2.loli.net/2022/11/15/53FRshVJ6njGvEw.jpg" alt="奶制品消费空间分布.jpg"></p>
-<p><img src="https://s2.loli.net/2022/11/15/RJMLtHK7VC3i5dE.png" alt="奶制品消费空间分布.png"></p>
-<h3 id="部分211大学12月百度指数动态图"><a href="#部分211大学12月百度指数动态图" class="headerlink" title="部分211大学12月百度指数动态图"></a>部分211大学12月百度指数动态图</h3><h4 id="数据集"><a href="#数据集" class="headerlink" title="数据集"></a>数据集</h4><p>数据集是我花5块钱买的211大学的百度指数</p>
-<p><img src="https://s2.loli.net/2022/11/15/DGtspJZl9LOVqyM.jpg" alt="中国矿业大学在内的大学百度指数数据集.jpg"></p>
-<h4 id="默认效果"><a href="#默认效果" class="headerlink" title="默认效果"></a>默认效果</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> pandas <span class="token keyword">as</span> pd
-<span class="token keyword">import</span> bar_chart_race <span class="token keyword">as</span> bcr
-<span class="token keyword">import</span> matplotlib
-matplotlib<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'font.sans-serif'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'SimHei'</span><span class="token punctuation">]</span>     <span class="token comment"># 显示中文</span>
-<span class="token comment"># 为了坐标轴负号正常显示。matplotlib默认不支持中文，设置中文字体后，负号会显示异常。需要手动将坐标轴负号设为False才能正常显示负号。</span>
-matplotlib<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'axes.unicode_minus'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token boolean">False</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> work3_2 <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">Scanner</span> input <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入字符"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//charAt函数为返回索引处的字符</span>
+        <span class="token keyword">char</span> ch <span class="token operator">=</span> input<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">charAt</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>ch <span class="token operator">&gt;=</span> <span class="token number">65</span> <span class="token operator">&amp;&amp;</span> ch <span class="token operator">&lt;=</span> <span class="token number">90</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>ch <span class="token operator">+</span> <span class="token string">" 是 "</span> <span class="token operator">+</span> <span class="token string">"大写字母"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>ch <span class="token operator">&gt;=</span> <span class="token number">97</span> <span class="token operator">&amp;&amp;</span> ch <span class="token operator">&lt;=</span> <span class="token number">122</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>ch <span class="token operator">+</span> <span class="token string">" 是 "</span> <span class="token operator">+</span> <span class="token string">"小写字母"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>ch <span class="token operator">&gt;=</span> <span class="token string">'0'</span> <span class="token operator">&amp;&amp;</span> ch <span class="token operator">&lt;=</span> <span class="token string">'9'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>ch <span class="token operator">+</span> <span class="token string">" 是 "</span> <span class="token operator">+</span> <span class="token string">"数字"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+            <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>ch <span class="token operator">+</span> <span class="token string">" 是 "</span> <span class="token operator">+</span> <span class="token string">"其他字符"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="输出结果-4"><a href="#输出结果-4" class="headerlink" title="输出结果"></a>输出结果</h3><p><img src="https://s2.loli.net/2022/11/15/FPkm4vLNjGSrI5E.png" alt="result.png"></p>
+<p><img src="https://s2.loli.net/2022/11/15/wmjS1OVfq8MJbFK.png" alt="result.png"></p>
+<p><img src="https://s2.loli.net/2022/11/15/4G9aUR1u3eBCAix.png" alt="result.png"></p>
+<h3 id="3、-利用辗转相除法（欧几里得算法）求两个正整数的最大公约数"><a href="#3、-利用辗转相除法（欧几里得算法）求两个正整数的最大公约数" class="headerlink" title="3、 利用辗转相除法（欧几里得算法）求两个正整数的最大公约数"></a>3、 利用辗转相除法（欧几里得算法）求两个正整数的最大公约数</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span><span class="token punctuation">;</span>
 
+<span class="token keyword">public</span> <span class="token keyword">class</span> work3_3 <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span> <span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">Scanner</span> input <span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"请输入测试数据："</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//先实例化对象，方便调用函数</span>
+        work3_3 a<span class="token operator">=</span><span class="token keyword">new</span> <span class="token function">work3_3</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment">//读取两个输入的整数</span>
+        <span class="token keyword">int</span> int1<span class="token operator">=</span>input<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> int2<span class="token operator">=</span>input<span class="token punctuation">.</span><span class="token function">nextInt</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>work3_3<span class="token punctuation">.</span><span class="token function">solution</span><span class="token punctuation">(</span>int1<span class="token punctuation">,</span>int2<span class="token punctuation">)</span><span class="token operator">+</span><span class="token string">"为两个整数的最大公约数"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">//求最大值函数</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">int</span> <span class="token function">maxint</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span><span class="token keyword">int</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>a<span class="token operator">&gt;</span>b<span class="token punctuation">)</span>
+            <span class="token keyword">return</span> a<span class="token punctuation">;</span>
+        <span class="token keyword">else</span>
+            <span class="token keyword">return</span> b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">//最小值函数</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">int</span> <span class="token function">minint</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span><span class="token keyword">int</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>a<span class="token operator">&lt;</span>b<span class="token punctuation">)</span>
+            <span class="token keyword">return</span> a<span class="token punctuation">;</span>
+        <span class="token keyword">else</span>
+            <span class="token keyword">return</span> b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">//辗转相除法的函数</span>
+    <span class="token keyword">public</span>  <span class="token keyword">static</span> <span class="token keyword">int</span> <span class="token function">solution</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span><span class="token keyword">int</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//如果取余数为0，返回除数，也就是不进入循环</span>
+        <span class="token comment">//如果余数不是0，进行辗转相除</span>
+        <span class="token keyword">while</span> <span class="token punctuation">(</span>a<span class="token operator">%</span>b<span class="token operator">!=</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">int</span> c<span class="token punctuation">;</span>
+            c<span class="token operator">=</span>a<span class="token operator">%</span>b<span class="token punctuation">;</span>
+            a<span class="token operator">=</span> work3_3<span class="token punctuation">.</span><span class="token function">maxint</span><span class="token punctuation">(</span>b<span class="token punctuation">,</span>c<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            b<span class="token operator">=</span> work3_3<span class="token punctuation">.</span><span class="token function">minint</span><span class="token punctuation">(</span>b<span class="token punctuation">,</span>c<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> b<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
 
-df <span class="token operator">=</span> pd<span class="token punctuation">.</span>read_csv<span class="token punctuation">(</span><span class="token string">'D:\OneDrive - cumt.edu.cn\桌面\大数据可视化\data.csv'</span><span class="token punctuation">,</span> index_col<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">"time"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-<span class="token comment"># 生成 GIF 图像</span>
-bcr<span class="token punctuation">.</span>bar_chart_race<span class="token punctuation">(</span>df<span class="token punctuation">,</span>
- <span class="token string">"211_schools_rank.gif"</span><span class="token punctuation">,</span>
-<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="https://s2.loli.net/2022/11/15/OjJBo1pvdSy8RDE.gif" alt="样式1.gif"></p>
-<p><img src="https://s2.loli.net/2022/11/15/QUKRk9eqHO4zWYh.gif" alt="样式2.gif"></p>
-<h4 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h4><pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> pandas <span class="token keyword">as</span> pd
-<span class="token keyword">import</span> bar_chart_race <span class="token keyword">as</span> bcr
-<span class="token keyword">import</span> matplotlib
-matplotlib<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'font.sans-serif'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'SimHei'</span><span class="token punctuation">]</span>     <span class="token comment"># 显示中文</span>
-<span class="token comment"># 为了坐标轴负号正常显示。matplotlib默认不支持中文，设置中文字体后，负号会显示异常。需要手动将坐标轴负号设为False才能正常显示负号。</span>
-matplotlib<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span><span class="token string">'axes.unicode_minus'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token boolean">False</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="输出结果-5"><a href="#输出结果-5" class="headerlink" title="输出结果"></a>输出结果</h3><p><img src="https://s2.loli.net/2022/11/15/S4ZqOFV6GPszftv.png" alt="result.png"></p>
+<h3 id="4、-假设一个数在1000到1100之间，那除以3结果余2-；除以5结果余3-；除以7结果余2（中国剩余定理），求此数。"><a href="#4、-假设一个数在1000到1100之间，那除以3结果余2-；除以5结果余3-；除以7结果余2（中国剩余定理），求此数。" class="headerlink" title="4、 假设一个数在1000到1100之间，那除以3结果余2,；除以5结果余3,；除以7结果余2（中国剩余定理），求此数。"></a>4、 假设一个数在1000到1100之间，那除以3结果余2,；除以5结果余3,；除以7结果余2（中国剩余定理），求此数。</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span><span class="token punctuation">;</span>
 
+<span class="token keyword">public</span> <span class="token keyword">class</span> work3_4 <span class="token punctuation">{</span>
+    <span class="token keyword">public</span>  <span class="token keyword">static</span>  <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token class-name">Scanner</span> sc<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">Scanner</span><span class="token punctuation">(</span><span class="token class-name">System</span><span class="token punctuation">.</span>in<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> i<span class="token punctuation">;</span>
+        <span class="token comment">//直接暴力循环</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span>i<span class="token operator">=</span><span class="token number">1000</span><span class="token punctuation">;</span>i<span class="token operator">&lt;=</span><span class="token number">1100</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span>i<span class="token operator">%</span><span class="token number">3</span><span class="token operator">==</span><span class="token number">2</span><span class="token operator">&amp;&amp;</span>i<span class="token operator">%</span><span class="token number">5</span><span class="token operator">==</span><span class="token number">3</span><span class="token operator">&amp;&amp;</span>i<span class="token operator">%</span><span class="token number">7</span><span class="token operator">==</span><span class="token number">2</span><span class="token punctuation">)</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-df <span class="token operator">=</span> pd<span class="token punctuation">.</span>read_csv<span class="token punctuation">(</span><span class="token string">'D:\OneDrive - cumt.edu.cn\桌面\大数据可视化\data.csv'</span><span class="token punctuation">,</span> index_col<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">"time"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
-<span class="token comment"># 生成 GIF 图像</span>
-bcr<span class="token punctuation">.</span>bar_chart_race<span class="token punctuation">(</span>df<span class="token punctuation">,</span>
- <span class="token string">"211_schools_rank.gif"</span><span class="token punctuation">,</span>
-fixed_max<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">,</span>
-steps_per_period<span class="token operator">=</span><span class="token number">30</span><span class="token punctuation">,</span> 
-period_length<span class="token operator">=</span><span class="token number">100</span><span class="token punctuation">,</span>
-title<span class="token operator">=</span><span class="token string">'部分大学2021年12月百度指数动态变化图'</span><span class="token punctuation">,</span>
-bar_kwargs<span class="token operator">=</span><span class="token punctuation">{</span><span class="token string">'alpha'</span><span class="token punctuation">:</span> <span class="token number">.2</span><span class="token punctuation">,</span> <span class="token string">'ec'</span><span class="token punctuation">:</span> <span class="token string">'black'</span><span class="token punctuation">,</span> <span class="token string">'lw'</span><span class="token punctuation">:</span> <span class="token number">3</span><span class="token punctuation">}</span>
-<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="https://s2.loli.net/2022/11/15/rCkYQieq7jAtIhy.gif" alt="样式3.gif"></p>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="输出结果-6"><a href="#输出结果-6" class="headerlink" title="输出结果"></a>输出结果</h3><p><img src="https://s2.loli.net/2022/11/15/A4DOLTRMPbQJNln.png" alt="result.png"></p>
+<h3 id="5、-小球从100米高度自由落下，每次触地后反弹到原来高度的一半，求第10次触地时经历的总路程以及第10次反弹高度。"><a href="#5、-小球从100米高度自由落下，每次触地后反弹到原来高度的一半，求第10次触地时经历的总路程以及第10次反弹高度。" class="headerlink" title="5、 小球从100米高度自由落下，每次触地后反弹到原来高度的一半，求第10次触地时经历的总路程以及第10次反弹高度。"></a>5、 小球从100米高度自由落下，每次触地后反弹到原来高度的一半，求第10次触地时经历的总路程以及第10次反弹高度。</h3><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">import</span> <span class="token namespace">java<span class="token punctuation">.</span>util<span class="token punctuation">.</span></span><span class="token class-name">Scanner</span><span class="token punctuation">;</span>
+
+<span class="token keyword">public</span> <span class="token keyword">class</span> work3_5 <span class="token punctuation">{</span>
+    <span class="token keyword">public</span>  <span class="token keyword">static</span>  <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">//i代表反弹i次</span>
+        <span class="token comment">//height代表第i次反弹之后的高度</span>
+        <span class="token comment">//sum_h代表累计路程</span>
+        <span class="token keyword">float</span> height<span class="token punctuation">;</span>
+        <span class="token keyword">int</span> i<span class="token punctuation">;</span>
+        <span class="token keyword">float</span> sum_h<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token comment">//求第10次的结果所以i&lt;10,100次就是i&lt;100</span>
+        <span class="token keyword">for</span><span class="token punctuation">(</span>i<span class="token operator">=</span><span class="token number">0</span><span class="token punctuation">,</span>height<span class="token operator">=</span><span class="token number">100</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span><span class="token number">10</span><span class="token punctuation">;</span>i<span class="token operator">++</span><span class="token punctuation">)</span>
+        <span class="token punctuation">{</span>
+            sum_h<span class="token operator">=</span>sum_h<span class="token operator">+</span>height<span class="token punctuation">;</span>
+            height<span class="token operator">=</span>height<span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>sum_h<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>height<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="输出结果-7"><a href="#输出结果-7" class="headerlink" title="输出结果"></a>输出结果</h3><p><img src="https://s2.loli.net/2022/11/15/KWQAtN4SLdToDjG.png" alt="result.png"></p>
 
                 
             </div>
@@ -969,7 +948,7 @@ bar_kwargs<span class="token operator">=</span><span class="token punctuation">{
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://lhkterence.github.io/posts/19d2a4e3.html">https://lhkterence.github.io/posts/19d2a4e3.html</a>
+                    <a href="https://lhkterence.github.io/posts/17d2d4e3.html">https://lhkterence.github.io/posts/17d2d4e3.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1011,12 +990,12 @@ bar_kwargs<span class="token operator">=</span><span class="token punctuation">{
                                     <span class="chip bg-color">Hexo</span>
                                 </a>
                             
-                                <a href="/tags/python-%E5%89%8D%E7%AB%AF/">
-                                    <span class="chip bg-color">python,前端</span>
-                                </a>
-                            
                                 <a href="/tags/%E5%8D%9A%E5%AE%A2/">
                                     <span class="chip bg-color">博客</span>
+                                </a>
+                            
+                                <a href="/tags/JAVA-%E7%AE%80%E5%8D%95%E7%AE%97%E6%B3%95/">
+                                    <span class="chip bg-color">JAVA,简单算法</span>
                                 </a>
                             
                         </div>
@@ -1492,24 +1471,24 @@ new Valine({
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/posts/17d2d4e3.html">
+                <a href="/posts/19d2z4e8.html">
                     <div class="card-image">
                         
                         
-                        <img src="https://s2.loli.net/2022/11/15/LHQ7386kMKblA1V.jpg" class="responsive-img" alt="罗宏昆JAVA作业">
+                        <img src="https://s2.loli.net/2022/11/15/YpmUl4tFu8rxGf7.jpg" class="responsive-img" alt="Anoconda使用总结">
                         
-                        <span class="card-title">罗宏昆JAVA作业</span>
+                        <span class="card-title">Anoconda使用总结</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            罗宏昆大数据JAVA作业
+                            本篇文章主要关于Anoconda的一些常用命令
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-11-16
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-11-17
                         </span>
                         <span class="publish-author">
                             
@@ -1530,12 +1509,12 @@ new Valine({
                         <span class="chip bg-color">Hexo</span>
                     </a>
                     
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">博客</span>
+                    <a href="/tags/Anoconda/">
+                        <span class="chip bg-color">Anoconda</span>
                     </a>
                     
-                    <a href="/tags/JAVA-%E7%AE%80%E5%8D%95%E7%AE%97%E6%B3%95/">
-                        <span class="chip bg-color">JAVA,简单算法</span>
+                    <a href="/tags/python/">
+                        <span class="chip bg-color">python</span>
                     </a>
                     
                 </div>
@@ -1549,24 +1528,24 @@ new Valine({
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/e3e08109.html">
+                <a href="/posts/19d2a4e3.html">
                     <div class="card-image">
                         
                         
-                        <img src="https://s2.loli.net/2022/11/15/Jag1DpT2Vx4qWGo.jpg" class="responsive-img" alt="罗宏昆个人简介">
+                        <img src="https://s2.loli.net/2022/11/15/YpmUl4tFu8rxGf7.jpg" class="responsive-img" alt="罗宏昆大数据可视化作业">
                         
-                        <span class="card-title">罗宏昆个人简介</span>
+                        <span class="card-title">罗宏昆大数据可视化作业</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            本篇文章主要关于我自己
+                            罗宏昆大数据可视化作业
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-01
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-15
                             </span>
                         <span class="publish-author">
                             
@@ -1587,12 +1566,12 @@ new Valine({
                         <span class="chip bg-color">Hexo</span>
                     </a>
                     
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">博客</span>
+                    <a href="/tags/python-%E5%89%8D%E7%AB%AF/">
+                        <span class="chip bg-color">python,前端</span>
                     </a>
                     
-                    <a href="/tags/Github/">
-                        <span class="chip bg-color">Github</span>
+                    <a href="/tags/%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">博客</span>
                     </a>
                     
                 </div>
