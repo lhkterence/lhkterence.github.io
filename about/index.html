@@ -1,6 +1,17 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
+ <script type="text/javascript"> //ֻ���������ҳ������Ч var windowWidth = $(window).width(); if (windowWidth > 768) { document.write('<script type="text/javascript" src="/js/xuehuapiaoluo.js"></script>'); } </script> 
 
+
+
+
+<!--  
+<script type="text/javascript"> //ֻ���������ҳ������Ч
+     var windowWidth = $(window).width(); 
+        if (windowWidth > 768) 
+              { document.write('<script type="text/javascript" src="/js/xuehuapiaoluo.js"></script>'); } 
+</script> 
+ -->
 
 <head>
     <meta charset="utf-8">
@@ -39,6 +50,9 @@
       var s = document.getElementsByTagName("script")[0]; 
       s.parentNode.insertBefore(hm, s);
     })();
+
+    
+
     </script>
 <!-- hexo injector head_end start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
@@ -532,7 +546,7 @@
                 <script>
                     var typed = new Typed("#subtitle", {
                         strings: ['非常沉默、非常骄傲。从不依靠、从不寻找。如果有来生，要化成一阵风，一瞬间也能成为永恒。','Cease to struggle and you cease to live'],
-                        startDelay: 300,
+                        startDelay: 100,
                         typeSpeed: 100,
                         loop: true,
                         backSpeed: 50,
@@ -548,7 +562,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.png';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
@@ -565,7 +579,7 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">11</a></span>
+    <span class="count"><a href="/">12</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -579,7 +593,7 @@
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">18</a></span>
+    <span class="count"><a href="/tags">21</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -595,7 +609,7 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">11</a></span>
+    <span class="count"><a href="/">12</a></span>
     <span class="name">文章</span>
 </div>
 
@@ -609,7 +623,7 @@
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">18</a></span>
+    <span class="count"><a href="/tags">21</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -753,7 +767,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,1,0,0,0,0,0,0,0,0,10],
+                data: [0,0,0,1,0,0,0,0,0,0,0,0,11],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -795,7 +809,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"博客篇","value":7},{"name":"学习篇","value":3},{"name":"生活篇","value":1}],
+                data: [{"name":"博客篇","value":7},{"name":"学习篇","value":4},{"name":"生活篇","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -819,7 +833,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["Hexo","博客","深度学习","神经网络","总结","Anoconda","python","JAVA,简单算法","pytorch","Github"]
+                data: ["Hexo","博客","深度学习","总结","神经网络","Anoconda","python","JAVA,简单算法","摄影测量","课程学习"]
             }
         ],
         yAxis: [
@@ -1032,6 +1046,48 @@
             
             
             
+            <a href="/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/">
+                <span class="chip center-align waves-effect waves-light chip-default">摄影测量</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/">
+                <span class="chip center-align waves-effect waves-light chip-default">课程学习</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Context-capture/">
+                <span class="chip center-align waves-effect waves-light chip-default">Context capture</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Github/">
+                <span class="chip center-align waves-effect waves-light chip-default">Github</span>
+            </a>
+            
+            
+            
+            <a href="/tags/python-%E5%89%8D%E7%AB%AF/">
+                <span class="chip center-align waves-effect waves-light chip-default">python,前端</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E6%97%A5%E5%B8%B8/">
+                <span class="chip center-align waves-effect waves-light chip-default">日常</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E6%80%BB%E7%BB%93/">
+                <span class="chip center-align waves-effect waves-light chip-default">总结</span>
+            </a>
+            
+            
+            
             <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/">
                 <span class="chip center-align waves-effect waves-light chip-default">深度学习</span>
             </a>
@@ -1050,24 +1106,6 @@
             
             
             
-            <a href="/tags/Github/">
-                <span class="chip center-align waves-effect waves-light chip-default">Github</span>
-            </a>
-            
-            
-            
-            <a href="/tags/%E6%97%A5%E5%B8%B8/">
-                <span class="chip center-align waves-effect waves-light chip-default">日常</span>
-            </a>
-            
-            
-            
-            <a href="/tags/%E6%80%BB%E7%BB%93/">
-                <span class="chip center-align waves-effect waves-light chip-default">总结</span>
-            </a>
-            
-            
-            
             <a href="/tags/%E7%94%9F%E6%B4%BB/">
                 <span class="chip center-align waves-effect waves-light chip-default">生活</span>
             </a>
@@ -1082,12 +1120,6 @@
             
             <a href="/tags/%E6%B5%8B%E9%87%8F%E5%B9%B3%E5%B7%AE/">
                 <span class="chip center-align waves-effect waves-light chip-default">测量平差</span>
-            </a>
-            
-            
-            
-            <a href="/tags/python-%E5%89%8D%E7%AB%AF/">
-                <span class="chip center-align waves-effect waves-light chip-default">python,前端</span>
             </a>
             
             
@@ -1290,7 +1322,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">6.7k</span>&nbsp;字
+                class="white-color">7.3k</span>&nbsp;字
             
             
             
@@ -1355,10 +1387,6 @@
             </script>
             
             <br>
-            
-            <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
-                <a href="http://www.beian.miit.gov.cn/" target="_blank">无</a>
-            </span>
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">

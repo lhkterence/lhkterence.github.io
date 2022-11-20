@@ -6,7 +6,7 @@
   <link href="https://lhkterence.github.io/atom.xml" rel="self"/>
   
   <link href="https://lhkterence.github.io/"/>
-  <updated>2022-11-17T13:21:50.384Z</updated>
+  <updated>2022-11-20T10:41:10.313Z</updated>
   <id>https://lhkterence.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Smart3D三维立体影像的制作</title>
+    <link href="https://lhkterence.github.io/posts/15d2a3e9.html"/>
+    <id>https://lhkterence.github.io/posts/15d2a3e9.html</id>
+    <published>2022-11-20T16:00:00.000Z</published>
+    <updated>2022-11-20T10:41:10.313Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Smart3D三维立体模型的制作"><a href="#Smart3D三维立体模型的制作" class="headerlink" title="Smart3D三维立体模型的制作"></a>Smart3D三维立体模型的制作</h1><h2 id="软件安装包"><a href="#软件安装包" class="headerlink" title="软件安装包"></a>软件安装包</h2><p>win10安装包</p><pre class="line-numbers language-none"><code class="language-none">链接：https://pan.baidu.com/s/1gCTBtaGhW1pHrIoNzRCRVA?pwd=xkx9 提取码：xkx9<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>win11安装包</p><pre class="line-numbers language-none"><code class="language-none">链接：https://pan.baidu.com/s/15YSHWuSnEe2qTrnOYV1eJQ?pwd=mutk 提取码：mutk<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="踩过的坑"><a href="#踩过的坑" class="headerlink" title="踩过的坑"></a>踩过的坑</h2><ul><li>如果你是win10系统，运行会比较正常，如果是<code>win11</code>，那将会比较麻烦，不过用我给的安装包就比较方便</li><li><img src="https://s2.loli.net/2022/11/20/KP6JC5Xm4eqkuMw.jpg" alt="解算失败"><h2 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h2></li></ul><h4 id="1-导入相片"><a href="#1-导入相片" class="headerlink" title="1.导入相片"></a>1.导入相片</h4><ul><li><img src="https://s2.loli.net/2022/11/20/ZR29fJwIF5t43pC.png" alt="路径设置"></li></ul><ul><li><img src="https://s2.loli.net/2022/11/20/VSrQ73ZmNagutzk.png" alt="上传图片"></li></ul><h4 id="2-自由空三"><a href="#2-自由空三" class="headerlink" title="2.自由空三"></a>2.自由空三</h4><p><img src="https://s2.loli.net/2022/11/20/PMo3VZ5TKOXA6Ql.png" alt="自由空三解算"></p><p><img src="https://s2.loli.net/2022/11/20/4biLXJH3wvngVrl.png" alt="定义参数"></p><h4 id="3-刺像控点"><a href="#3-刺像控点" class="headerlink" title="3.刺像控点"></a>3.刺像控点</h4><p><img src="https://s2.loli.net/2022/11/20/VtvQT8kes3mIXaZ.png" alt="刺点"></p><h4 id="4-建模"><a href="#4-建模" class="headerlink" title="4.建模"></a>4.建模</h4><p><img src="https://s2.loli.net/2022/11/20/psTSiVK7bQvfUFA.png" alt="选择区域"></p><p>提交项目，设置合适的格式osgb</p><p><img src="https://s2.loli.net/2022/11/20/a3eHOR84Foy9pkl.png" alt="进行计算"></p><h4 id="输出结果"><a href="#输出结果" class="headerlink" title="输出结果"></a>输出结果</h4><p>计算实践将近4.5小时</p><p><img src="https://s2.loli.net/2022/11/20/vYyaKIx1umMhjNE.png" alt="image-20221120180416695"></p><p><img src="https://s2.loli.net/2022/11/20/zgOupjmUnN8SxvD.gif" alt="tutieshi_640x360_4s"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="学习篇" scheme="https://lhkterence.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
+    
+    
+    <category term="摄影测量" scheme="https://lhkterence.github.io/tags/%E6%91%84%E5%BD%B1%E6%B5%8B%E9%87%8F/"/>
+    
+    <category term="课程学习" scheme="https://lhkterence.github.io/tags/%E8%AF%BE%E7%A8%8B%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="Context capture" scheme="https://lhkterence.github.io/tags/Context-capture/"/>
+    
+  </entry>
   
   <entry>
     <title>Anoconda使用总结</title>
@@ -45,34 +73,6 @@
   </entry>
   
   <entry>
-    <title>pytorch学习</title>
-    <link href="https://lhkterence.github.io/posts/19d2a3e9.html"/>
-    <id>https://lhkterence.github.io/posts/19d2a3e9.html</id>
-    <published>2022-11-16T16:00:00.000Z</published>
-    <updated>2022-11-17T15:50:23.150Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="pytorch"><a href="#pytorch" class="headerlink" title="pytorch"></a>pytorch</h1>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="学习篇" scheme="https://lhkterence.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
-    
-    
-    <category term="深度学习" scheme="https://lhkterence.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="pytorch" scheme="https://lhkterence.github.io/tags/pytorch/"/>
-    
-    <category term="神经网络" scheme="https://lhkterence.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
-    
-  </entry>
-  
-  <entry>
     <title>日常学习总结</title>
     <link href="https://lhkterence.github.io/posts/19d2a4e9.html"/>
     <id>https://lhkterence.github.io/posts/19d2a4e9.html</id>
@@ -95,6 +95,34 @@
     <category term="日常" scheme="https://lhkterence.github.io/tags/%E6%97%A5%E5%B8%B8/"/>
     
     <category term="总结" scheme="https://lhkterence.github.io/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pytorch学习</title>
+    <link href="https://lhkterence.github.io/posts/19d2a3e9.html"/>
+    <id>https://lhkterence.github.io/posts/19d2a3e9.html</id>
+    <published>2022-11-16T16:00:00.000Z</published>
+    <updated>2022-11-20T10:41:17.469Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="pytorch"><a href="#pytorch" class="headerlink" title="pytorch"></a>pytorch</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="学习篇" scheme="https://lhkterence.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
+    
+    
+    <category term="深度学习" scheme="https://lhkterence.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="pytorch" scheme="https://lhkterence.github.io/tags/pytorch/"/>
+    
+    <category term="神经网络" scheme="https://lhkterence.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
@@ -265,9 +293,9 @@
     <link href="https://lhkterence.github.io/posts/e3e08109.html"/>
     <id>https://lhkterence.github.io/posts/e3e08109.html</id>
     <published>2022-11-01T03:41:03.000Z</published>
-    <updated>2022-11-16T04:14:24.734Z</updated>
+    <updated>2022-11-20T11:00:57.120Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>姓名：罗宏昆</p><p>性别：男</p><p>出生日期：2002.7.15</p><p>兴趣爱好：唱歌，打乒乓球，下象棋</p><p>个人评价：一个正在努力学习的菜鸡</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><h4 id="姓名"><a href="#姓名" class="headerlink" title="姓名"></a>姓名</h4><p>罗宏昆</p><h4 id="性别"><a href="#性别" class="headerlink" title="性别"></a>性别</h4><p>男</p><h4 id="出生日期"><a href="#出生日期" class="headerlink" title="出生日期"></a>出生日期</h4><p>2002.7.15</p><h4 id="兴趣爱好"><a href="#兴趣爱好" class="headerlink" title="兴趣爱好"></a>兴趣爱好</h4><p>唱歌，打乒乓球，下象棋</p><h4 id="个人评价"><a href="#个人评价" class="headerlink" title="个人评价"></a>个人评价</h4><p>一个正在努力学习的菜鸡</p><h4 id="个人技能"><a href="#个人技能" class="headerlink" title="个人技能"></a>个人技能</h4><p>C++ (菜鸡水平)</p><p>matlab（数学建模常用，所以学了）</p><p>python（里面的包比较有意思，目前涉足深度学习领域，正在学习torch）</p><p>java(正在上的一门课程)</p><p>html,css,js（前端开发，会一些基本的东西，还有半桶水的Vue，其实js也不咋地）</p><p>CAD,CASS（数字地形测量实习以及计算机地图制图课程有用到）</p><p>ArcGIS（地图学，地理信息系统原理课程实验和实习用到）</p><p>ENVI（环境遥感，遥感原理与应用,ENVI遥感软件）</p><p>latex（应该可以搜搜改改用latex写一篇论文，工程测量学的作业用latex写的）</p><p>polSARpro（环境遥感课程用到，对SAR数据进行处理）</p><p>Smart3D（测绘劳动实践课用这个做三维立体模型）</p><h4 id="所获奖项"><a href="#所获奖项" class="headerlink" title="所获奖项"></a>所获奖项</h4><p>国家级：全国大学生程序设计编程挑战赛铜奖</p><p>省级：全国大学生外包服务大三等奖，全国大学生能源经济学术创意大赛二等奖，五一数学建模联赛二等奖，江苏省高等数学竞赛三等奖，江苏省财务大数据比赛三等奖，全国大学电工杯数学建模三等奖（先写这这么多。有些比赛级别不好说）</p><p>校级：中国矿业大学高等数学竞赛二等奖，中国矿业大学概率论竞赛三等奖，中国矿业大学博学杯数学建模三等奖，中国矿业大学matlab镜湖美化大赛二等奖（还有一些文艺比赛就不列举了）</p>]]></content>
     
     
       

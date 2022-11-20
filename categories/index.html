@@ -1,6 +1,17 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
+ <script type="text/javascript"> //ֻ���������ҳ������Ч var windowWidth = $(window).width(); if (windowWidth > 768) { document.write('<script type="text/javascript" src="/js/xuehuapiaoluo.js"></script>'); } </script> 
 
+
+
+
+<!--  
+<script type="text/javascript"> //ֻ���������ҳ������Ч
+     var windowWidth = $(window).width(); 
+        if (windowWidth > 768) 
+              { document.write('<script type="text/javascript" src="/js/xuehuapiaoluo.js"></script>'); } 
+</script> 
+ -->
 
 <head>
     <meta charset="utf-8">
@@ -39,6 +50,9 @@
       var s = document.getElementsByTagName("script")[0]; 
       s.parentNode.insertBefore(hm, s);
     })();
+
+    
+
     </script>
 <!-- hexo injector head_end start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
@@ -525,7 +539,7 @@
                 <script>
                     var typed = new Typed("#subtitle", {
                         strings: ['非常沉默、非常骄傲。从不依靠、从不寻找。如果有来生，要化成一阵风，一瞬间也能成为永恒。','Cease to struggle and you cease to live'],
-                        startDelay: 300,
+                        startDelay: 100,
                         typeSpeed: 100,
                         loop: true,
                         backSpeed: 50,
@@ -541,7 +555,7 @@
 
 <script>
     // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.png';
     $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
@@ -568,7 +582,7 @@
                       <div class="moleskine-notebook">
                           <div class="chip notebook-cover center-align waves-effect waves-light
                            chip-default "
-                                  style="background-color: #5ECBE9;">                                               
+                                  style="background-color: #140C2F;">                                               
                               <div class="notebook-skin
                                    chip-default "
                                   >博客篇                                  
@@ -580,12 +594,12 @@
                 </a>
                 
                 
-                <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/" title="学习篇: 3">
+                <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/" title="学习篇: 4">
                   <div class="moleskine-wrapper">
                       <div class="moleskine-notebook">
                           <div class="chip notebook-cover center-align waves-effect waves-light
                            chip-default "
-                                  style="background-color: #D1FF71;">                                               
+                                  style="background-color: #2EBF98;">                                               
                               <div class="notebook-skin
                                    chip-default "
                                   >学习篇                                  
@@ -602,7 +616,7 @@
                       <div class="moleskine-notebook">
                           <div class="chip notebook-cover center-align waves-effect waves-light
                            chip-default "
-                                  style="background-color: #57F6E1;">                                               
+                                  style="background-color: #0FB08C;">                                               
                               <div class="notebook-skin
                                    chip-default "
                                   >生活篇                                  
@@ -776,7 +790,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [7,3,1],
+                    value : [7,4,1],
                     name : '文章分类数量'
                 }
             ]
@@ -860,7 +874,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">6.7k</span>&nbsp;字
+                class="white-color">7.3k</span>&nbsp;字
             
             
             
@@ -925,10 +939,6 @@
             </script>
             
             <br>
-            
-            <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
-                <a href="http://www.beian.miit.gov.cn/" target="_blank">无</a>
-            </span>
             
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
