@@ -78,9 +78,9 @@
       
         <tags>
             
-            <tag> 日常 </tag>
-            
             <tag> 总结 </tag>
+            
+            <tag> 日常 </tag>
             
         </tags>
       
@@ -107,9 +107,38 @@
             
             <tag> Hexo </tag>
             
+            <tag> 博客 </tag>
+            
             <tag> JAVA,简单算法 </tag>
             
-            <tag> 博客 </tag>
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于我的生活</title>
+      <link href="posts/19d1a4e9.html"/>
+      <url>posts/19d1a4e9.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="日常生活感受"><a href="#日常生活感受" class="headerlink" title="日常生活感受"></a>日常生活感受</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活篇 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 生活 </tag>
+            
+            <tag> 感受 </tag>
+            
+            <tag> 总结 </tag>
             
         </tags>
       
@@ -137,35 +166,6 @@
             <tag> C++ </tag>
             
             <tag> 算法 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于我的生活</title>
-      <link href="posts/19d1a4e9.html"/>
-      <url>posts/19d1a4e9.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="日常生活感受"><a href="#日常生活感受" class="headerlink" title="日常生活感受"></a>日常生活感受</h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> 生活篇 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 总结 </tag>
-            
-            <tag> 生活 </tag>
-            
-            <tag> 感受 </tag>
             
         </tags>
       
@@ -221,9 +221,9 @@
             
             <tag> Hexo </tag>
             
-            <tag> 博客 </tag>
-            
             <tag> Github </tag>
+            
+            <tag> 博客 </tag>
             
         </tags>
       
