@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Ternence</title>
+  <title>罗宏昆</title>
   
   <subtitle>Ternenceの博客</subtitle>
   <link href="https://lhkterence.github.io/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://lhkterence.github.io/</id>
   
   <author>
-    <name>Ternence</name>
+    <name>罗宏昆</name>
     
   </author>
   
@@ -73,34 +73,6 @@
   </entry>
   
   <entry>
-    <title>pytorch学习</title>
-    <link href="https://lhkterence.github.io/posts/19d2a3e9.html"/>
-    <id>https://lhkterence.github.io/posts/19d2a3e9.html</id>
-    <published>2022-11-16T16:00:00.000Z</published>
-    <updated>2022-11-20T10:41:17.469Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="pytorch"><a href="#pytorch" class="headerlink" title="pytorch"></a>pytorch</h1>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="学习篇" scheme="https://lhkterence.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
-    
-    
-    <category term="深度学习" scheme="https://lhkterence.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="pytorch" scheme="https://lhkterence.github.io/tags/pytorch/"/>
-    
-    <category term="神经网络" scheme="https://lhkterence.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
-    
-  </entry>
-  
-  <entry>
     <title>日常学习总结</title>
     <link href="https://lhkterence.github.io/posts/19d2a4e9.html"/>
     <id>https://lhkterence.github.io/posts/19d2a4e9.html</id>
@@ -123,32 +95,6 @@
     <category term="总结" scheme="https://lhkterence.github.io/tags/%E6%80%BB%E7%BB%93/"/>
     
     <category term="日常" scheme="https://lhkterence.github.io/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CNN神经网络个人理解</title>
-    <link href="https://lhkterence.github.io/posts/19d6a4e9.html"/>
-    <id>https://lhkterence.github.io/posts/19d6a4e9.html</id>
-    <published>2022-11-16T16:00:00.000Z</published>
-    <updated>2022-11-17T15:52:07.742Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="CNN"><a href="#CNN" class="headerlink" title="CNN"></a>CNN</h1>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="学习篇" scheme="https://lhkterence.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AF%87/"/>
-    
-    
-    <category term="深度学习" scheme="https://lhkterence.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="神经网络" scheme="https://lhkterence.github.io/tags/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
@@ -205,32 +151,6 @@
     <category term="感受" scheme="https://lhkterence.github.io/tags/%E6%84%9F%E5%8F%97/"/>
     
     <category term="总结" scheme="https://lhkterence.github.io/tags/%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>三维点云与深度学习</title>
-    <link href="https://lhkterence.github.io/posts/19d2a4e2.html"/>
-    <id>https://lhkterence.github.io/posts/19d2a4e2.html</id>
-    <published>2022-11-15T16:00:00.000Z</published>
-    <updated>2022-11-17T16:05:00.869Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="点云深度学习总结"><a href="#点云深度学习总结" class="headerlink" title="点云深度学习总结"></a>点云深度学习总结</h1><h2 id="Multi-view-CNN"><a href="#Multi-view-CNN" class="headerlink" title="Multi-view CNN"></a>Multi-view CNN</h2><p>立体通过不同部分角度的投影得到不同的CNN,然后经过后续的池化，然后经过CNN处理，然后进行分类。角度越多，精度越高，但是数据量越大。</p><h2 id="PointNet"><a href="#PointNet" class="headerlink" title="PointNet"></a>PointNet</h2><h3 id="unordered-Inout"><a href="#unordered-Inout" class="headerlink" title="unordered Inout"></a>unordered Inout</h3><p>无序，直接根据点云进行学习</p><p>MLP为多层感知机，三维到多维的变换，然后进行最大池化，PointNet可以拟合任意连续ide函数（有证明）</p><h3 id="PointNet分类网络的结构"><a href="#PointNet分类网络的结构" class="headerlink" title="PointNet分类网络的结构"></a>PointNet分类网络的结构</h3><h3 id="PintNet分割网络结构"><a href="#PintNet分割网络结构" class="headerlink" title="PintNet分割网络结构"></a>PintNet分割网络结构</h3><h3 id="关于神经网络的一些名词"><a href="#关于神经网络的一些名词" class="headerlink" title="关于神经网络的一些名词"></a>关于神经网络的一些名词</h3><p>卷积神经网络，全连接层，激活函数，损失函数</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    <category term="博客篇" scheme="https://lhkterence.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%AF%87/"/>
-    
-    
-    <category term="深度学习" scheme="https://lhkterence.github.io/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
-    
-    <category term="点云" scheme="https://lhkterence.github.io/tags/%E7%82%B9%E4%BA%91/"/>
     
   </entry>
   
